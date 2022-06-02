@@ -43,7 +43,7 @@ p{
   padding: 180px
 }
 .banner-text h1{
-  font-size: 130px;
+  font-size: 100px;
   font-family: 'Alfa Slab One', cursive;;
   font-weight: 100;
 }
@@ -202,7 +202,7 @@ nav ul li a{
   text-align: center;
   margin-bottom: 10px;
   font-weight: 200;
-  color: #030506;
+  color: #fff1cf;
   font-size: 20px
 }
 .features-desc{
@@ -218,12 +218,12 @@ nav ul li a{
 .feature-text p{
   padding: 0 20px;
   text-align: initial;
-  font-size: 25px
+  font-size: 18px
 }
 .service-text p{
   padding: 0 20px;
   text-align: initial;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 100
 }
 #service{
@@ -360,6 +360,9 @@ nav ul li a{
   color: #fff1cf;
   position: relative;
 }
+#contato a{
+  color: #fff1cf
+}
 .footer-row{
   width: 80%;
   margin: 0 auto;
@@ -376,7 +379,7 @@ nav ul li a{
   text-align: right;
 }
 .footer-row h1{
-  margin: 10px
+  margin: 0
 }
 .footer-row p{
   line-height: 35px
@@ -387,7 +390,7 @@ nav ul li a{
   margin: 10px
 }
 .footer-img{
-    max-width: 250px;
+    max-width: 150px;
     opacity: 0.3;
     position: absolute;
     left: 50%;
@@ -485,5 +488,53 @@ nav ul li a{
 @media screen and (max-width: 770px){
   .testimonial-col{
     flex-basis: 100%
+    }
+    .banner-text p{
+      justify-content: center;
+    }
+    .banner-text h1{
+      justify-content: center;
+    }
+    .title-text h1{
+      margin: 0 10%
+    }
+}
+@media screen and (max-width: 600px){
+  .banner-text{
+    padding: 50% 0 50% 0
+  }
+  .banner-text p{
+    padding: 20px
+  }
+  #stefano-mota{
+    align-items: center;
+  }
+  .features{
+    flex-basis: 100%;
+    padding: 0;
+  }
+  .features h1{
+    font-size: 20px
+  }
+  .title-text h1{
+    font-size: 25px;
+    margin: auto 20px
+  }
+  .feature-text p{
+    font-size: 16px
+  }
+  .heading{
+    font-size: 30px;
+    color: #fff1cf
+  }
+  .table-btn a{
+    width: 100px
+  }
+  .services-img h1{
+    font-size: 13px
+  }
+  .service-text p{
+    font-size: 16px;
+    padding: 0
   }
 }
